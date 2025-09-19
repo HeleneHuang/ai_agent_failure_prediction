@@ -1,0 +1,16 @@
+# This file is intentionally left blank.
+# The agent is configured to run in a pure mock mode without external dependencies
+# to ensure maximum compatibility.
+
+# This file lists the Python packages that are required for the AI agent
+# to run in LIVE mode (i.e., calling a real LLM).
+#
+# To install, run:
+# pip3 install -r requirements.txt
+#
+# If the agent is run without these dependencies, it will automatically
+# fall back to MOCK mode.
+
+# The official OpenAI library. Version 0.28 is recommended for broader
+# compatibility with Python 3.7+.
+openai==0.28 
