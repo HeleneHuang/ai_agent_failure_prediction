@@ -69,9 +69,9 @@ python3 ai_agent_failure_prediction/agent.py
 
 The agent will start its monitoring loop. Observe the console output to see the health checks, predictions, and any self-healing actions taken.
 
-## Integration with Your Project
+## Integration with the kv Project
 
-To integrate this agent with your actual distributed storage system, you would need to:
+To integrate this agent with the actual distributed storage system, you would need to:
 
 1.  **Replace `monitor.py`**: Modify the `get_cluster_health()` function to collect real metrics from your storage nodes' APIs or log files.
 2.  **Implement `healer.py`**: Replace the `print` statements in the `initiate_self_healing` function with actual shell commands or API calls to your system's control plane to add/remove nodes from the Raft group.
