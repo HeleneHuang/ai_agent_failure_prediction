@@ -12,6 +12,9 @@ This module implements an AI Agent designed to predict potential failures in a d
 - **Alerting**: Includes a placeholder for sending email alerts to administrators.
 - **Mockable & Extensible**: Designed with a mock mode for testing without a real LLM API key.
 
+<img width="841" height="652" alt="kv-agent-logic drawio" src="https://github.com/user-attachments/assets/dc641077-61c4-405e-8425-6ed9ca317bb6" />
+
+
 ## Project Structure
 
 ```
